@@ -1,0 +1,30 @@
+# Sakura Cloud API 認証情報
+# コントロールパネルで発行したアクセストークンを指定します。
+access_token = "アクセストークン"
+
+# コントロールパネルで発行したアクセストークンシークレットを指定します。
+access_token_secret = "アクセストークンシークレット"
+
+apprun_dedicated_lets_encrypt_email = "example@example.com"
+
+ai_engine_api_key = "APIキー"
+
+# AppRun がコンテナレジストリからイメージを pull するための認証情報です。
+container_username = "ユーザ名"
+container_password = "パスワード"
+
+# データベース設定です。
+database_port     = 3306
+database_password = "パスワード"
+
+jwt_secret = "JWTシークレット"
+
+ls_api_token = "APIトークン"
+
+objst_jp_north_1_secret_access_key = "シークレットアクセスキー"
+objst_jp_east_1_secret_access_key  = "シークレットアクセスキー"
+
+simple_mq_queue_key = "キューAPIキー"
+
+# WireGuard クライアント側の公開鍵です。
+vpn_peer_public_key = "公開鍵"

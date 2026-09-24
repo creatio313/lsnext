@@ -1,0 +1,57 @@
+### Next.jsの内容
+# dependencies
+/webapp/nextjsapp/node_modules
+/webapp/nextjsapp/.pnp
+/webapp/nextjsapp/.pnp.*
+/webapp/nextjsapp/.yarn/*
+!/webapp/nextjsapp/.yarn/patches
+!/webapp/nextjsapp/.yarn/plugins
+!/webapp/nextjsapp/.yarn/releases
+!/webapp/nextjsapp/.yarn/versions
+
+# testing
+/webapp/nextjsapp/coverage
+
+# next.js
+/webapp/nextjsapp/.next/
+/webapp/nextjsapp/out/
+
+# production
+/webapp/nextjsapp/build
+
+# misc
+/webapp/nextjsapp/.DS_Store
+*.pem
+
+# debug
+/webapp/nextjsapp/npm-debug.log*
+/webapp/nextjsapp/yarn-debug.log*
+/webapp/nextjsapp/yarn-error.log*
+/webapp/nextjsapp/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/webapp/nextjsapp/.env*
+
+# vercel
+/webapp/nextjsapp/.vercel
+
+# typescript
+/webapp/nextjsapp/*.tsbuildinfo
+/webapp/nextjsapp/next-env.d.ts
+
+### Terraformの内容
+# Terraform variables and secrets
+terraform/*.tfvars
+terraform/*.tfvars.json
+!terraform/*.tfvars.example
+
+# Terraform state files
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+terraform/.terraform.tfstate.lock.info
+
+# Terraform directory
+terraform/.terraform/
+
+# Terraform SSH keys
+terraform/.ssh/

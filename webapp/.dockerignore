@@ -1,0 +1,7 @@
+nextjsapp/.next
+nextjsapp/node_modules
+nextjsapp/.env*.local
+nextjsapp/npm-debug.log*
+nextjsapp/yarn-debug.log*
+nextjsapp/yarn-error.log*
+nextjsapp/.DS_Store

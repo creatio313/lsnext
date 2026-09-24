@@ -1,0 +1,39 @@
+{
+  "name": "nextjsapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.10",
+    "@heroicons/react": "^2.2.0",
+    "@simplewebauthn/browser": "^13.3.0",
+    "@simplewebauthn/server": "^13.3.2",
+    "bcryptjs": "^3.0.3",
+    "hls.js": "^1.7.1",
+    "jose": "^6.2.3",
+    "mysql2": "^3.22.5",
+    "next": "^16.3.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "sora-js-sdk": "^2026.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true,
+    "sharp@0.34.5": true
+  }
+}
