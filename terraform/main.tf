@@ -337,6 +337,6 @@ resource "sakura_vpn_router" "standard_vpn_router" {
 
   tags = ["lsnext"]
 
-  version = 2
+  version = 3
   zone    = var.zone
 }
