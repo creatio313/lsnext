@@ -35,7 +35,7 @@ resource "sakura_apprun_dedicated_auto_scaling_group" "lsnext_group" {
   max_nodes                 = 3
   min_nodes                 = 1
   name                      = "LSNEXTAPPS_AG"
-  worker_service_class_path = data.sakura_apprun_dedicated_worker_service_classes.lsnext.classes[0].path
+  worker_service_class_path = data.sakura_apprun_dedicated_worker_service_classes.lsnext.classes[3].path
   zone                      = var.zone
   name_servers              = sakura_seg.seg_for_apprun_dedicated.server_ip_addresses
 }
@@ -62,7 +62,7 @@ resource "sakura_apprun_dedicated_lb" "lsnext_lb" {
   }]
 
   name               = "LSNEXTAPPS_LB"
-  service_class_path = data.sakura_apprun_dedicated_lb_service_classes.lsnext.classes[1].path
+  service_class_path = data.sakura_apprun_dedicated_lb_service_classes.lsnext.classes[3].path
 }
 
 resource "sakura_apprun_dedicated_application" "lsnext_app" {
