@@ -3,12 +3,12 @@ data "sakura_object_storage_site" "ishikari" {
 }
 
 resource "sakura_object_storage_bucket" "lsnext_archive_bucket" {
-  name    = "lsnext-archive"
+  name    = "lsnext-archives"
   site_id = data.sakura_object_storage_site.ishikari.id
 }
 
 resource "sakura_object_storage_bucket" "lsnext_log_bucket" {
-  name    = "lsnext-log"
+  name    = "lsnext-logs"
   site_id = data.sakura_object_storage_site.ishikari.id
 }
 
